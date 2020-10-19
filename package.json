@@ -1,0 +1,28 @@
+{
+  "name": "whatsappgit",
+  "version": "1.0.0",
+  "description": "developing whatsApp clone",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyothigangula12/whatsappgit.git"
+  },
+  "author": "jyothi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyothigangula12/whatsappgit/issues"
+  },
+  "homepage": "https://github.com/jyothigangula12/whatsappgit#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8",
+    "nodemon": "^2.0.4",
+    "pusher": "^3.0.1"
+  }
+}
